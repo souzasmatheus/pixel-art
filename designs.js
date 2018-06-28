@@ -7,12 +7,13 @@ let width = $("#inputWeight").val();*/
 // When size is submitted by the user, call makeGrid()
 
 class Grid {
-	/*constructor (height, width, button, element) {
-		this.height = height;
-		this.width = width;
+
+	/*paintGrid() {
+		$("td").on("click", function() {
+			var color = $("#colorPicker").val();
+			$(this).css( "background-color", color);
+		})
 	}*/
-
-
 
 	makeGrid() {
 		$("#sizePicker").one("submit", function(e) {
@@ -28,6 +29,10 @@ class Grid {
 				}
 			};
 			e.preventDefault();
+			$("td").on("click", function() {
+				var color = $("#colorPicker").val();
+				$(this).css( "background-color", color);
+			})
 		})
 	}
 }
