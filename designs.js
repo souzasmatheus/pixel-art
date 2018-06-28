@@ -8,14 +8,15 @@ let width = $("#inputWeight").val();*/
 
 class Grid {
 
-	/*paintGrid() {
+	paintGrid() {
 		$("td").on("click", function() {
 			var color = $("#colorPicker").val();
 			$(this).css( "background-color", color);
 		})
-	}*/
+	}
 
 	makeGrid() {
+		const self = this;
 		$("#sizePicker").one("submit", function(e) {
 			let height = $("#inputHeight").val();
 			let width = $("#inputWeight").val();
@@ -29,10 +30,7 @@ class Grid {
 				}
 			};
 			e.preventDefault();
-			$("td").on("click", function() {
-				var color = $("#colorPicker").val();
-				$(this).css( "background-color", color);
-			})
+			self.paintGrid();
 		})
 	}
 }
