@@ -1,15 +1,20 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+## Description
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+This is an extracurricular project for Udacity's Web Development Course.
+
+In order to build it, I used diverse technoligies, such as HTML, CSS, Javascript, jQuery and Object-Oriented Programing. I hope you enjoy it! :)
 
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
+Click on this link to open on browser:
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+Select a height and a width for the grid;
+
+Select the color you want to use;
+
+Click on the squares to paint them;
 
 ## Contributing
 
