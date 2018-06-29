@@ -8,7 +8,7 @@ In order to build it, I used diverse technoligies, such as HTML, CSS, Javascript
 
 ## Instructions
 
-Click on this link to open on browser:
+Click on this link to open on browser: https://souzasmatheus.github.io/pixel-art/ ;
 
 Select a height and a width for the grid;
 
